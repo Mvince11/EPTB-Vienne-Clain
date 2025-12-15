@@ -9,7 +9,7 @@ website:
      search: false
      logo: Images/logo_porteurs_projet_transparent.png
      collapse-below: xxl
-     tools-collapse: false
+     tools-collapse: true
      right:
      
         - href: index.qmd

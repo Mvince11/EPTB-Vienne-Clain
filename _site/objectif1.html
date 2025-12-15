@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,18 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b663525e4b92bb903b2199e2d401bf36.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3a4c8f9ebd64133f3bbb24ba46ea1ee5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
-<script src="site_libs/quarto-dashboard/stickythead.js"></script>
-<script src="site_libs/quarto-dashboard/datatables.min.js" kdttablesentinel="true"></script>
-<script src="site_libs/quarto-dashboard/pdfmake.min.js" kdttablesentinel="true"></script>
-<script src="site_libs/quarto-dashboard/vfs_fonts.js" kdttablesentinel="true"></script>
-<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
-<script src="site_libs/quarto-dashboard/components.js"></script>
-<link href="site_libs/quarto-dashboard/datatables.min.css" rel="stylesheet" kdttablesentinel="true">
+<link href="site_libs/bootstrap/bootstrap-17180a699b351f34f8796e497a9e5e70.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,9 +68,156 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-</head>
+<!-- <script src="assets/inject-logos.js"></script> -->
 
-<body class="quarto-dashboard nav-fixed dashboard-fill fullcontent">
+<script src="assets/sidebar-toggle.js"></script>
+
+<!-- <script src="assets/toggle.js"></script> --> 
+
+
+
+</head><body class="nav-fixed fullcontent">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+
+
+=======
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Try common Quarto IDs; fall back to your custom one if used
+
+  const collapse =
+
+    document.getElementById('quarto-navbar-collapse') ||
+
+    document.getElementById('navbarCollapse');
+
+
+
+  const toggler = document.querySelector('.navbar-toggler');
+
+
+
+  if (!collapse || !toggler) return; // nothing to do
+
+
+
+  // Create offcanvas container
+
+  const offcanvas = document.createElement('div');
+
+  offcanvas.className = 'offcanvas offcanvas-start site-offcanvas';
+
+  offcanvas.id = 'site-offcanvas';
+
+  offcanvas.setAttribute('tabindex', '-1');
+
+
+
+  // Header with image/logo and close button
+
+  const header = document.createElement('div');
+
+  header.className = 'offcanvas-header';
+
+
+
+  const img = document.createElement('img');
+
+  img.src = 'Images/logo_porteurs_projet_anc.png';
+
+  img.alt = 'Logo';
+
+  img.style.maxHeight = '64px';
+
+
+
+  const closeBtn = document.createElement('button');
+
+  closeBtn.type = 'button';
+
+  closeBtn.className = 'btn-close';
+
+  closeBtn.setAttribute('data-bs-dismiss', 'offcanvas');
+
+
+
+  header.appendChild(img);
+
+  header.appendChild(closeBtn);
+
+
+
+  // Body: move existing navbar items here
+
+  const body = document.createElement('div');
+
+  body.className = 'offcanvas-body';
+
+
+
+  // Preserve current collapse content
+
+  while (collapse.firstChild) {
+
+    body.appendChild(collapse.firstChild);
+
+  }
+
+
+
+  offcanvas.appendChild(header);
+
+  offcanvas.appendChild(body);
+
+
+
+  // Insert offcanvas next to navbar
+
+  const navbar = document.querySelector('nav.navbar');
+
+  (navbar?.parentNode || document.body).appendChild(offcanvas);
+
+
+
+  // Hide original collapse (we moved its children)
+
+  collapse.classList.add('d-none');
+
+
+
+  // Retarget the burger to offcanvas
+
+  toggler.setAttribute('data-bs-toggle', 'offcanvas');
+
+  toggler.setAttribute('data-bs-target', '#site-offcanvas');
+
+  
+
+  // 👉 Ajoute le texte "Menu" à côté du burger
+
+  const menuText = document.createElement('span');
+
+  menuText.className = 'menu-text';
+
+  menuText.textContent = 'Menu';
+
+  toggler.appendChild(menuText);
+
+  
+
+});
+
+</script>
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 53c0ddf (Ajout menu de navigation)
+
+
+
+
+
 
 
 <div id="quarto-search-results"></div>
@@ -238,69 +377,52 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-<header id="quarto-dashboard-header">
-<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
-  <div class="navbar-container container-fluid">
-    <button class="navbar-toggler hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>    
-
-
-    <div class="navbar-brand-container">       
-
-      <div class="navbar-title">
-        <div class="navbar-title-text"><a href="#">Objectif n°1 : Augmenter la sécurité des populations</a></div>
-        
-        
-      </div>
-    </div>
-</div>
-</nav>
-</header></header>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Objectif n°1 : Augmenter la sécurité des populations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
 
 <p><img src="Images/Objectif1.png" height="150px" width="148px" align="center" style="float:center; margin-right:1000px;"></p>
-<div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card bslib-card html-fill-container" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
+<section id="les-inondations-peuvent-faire-courir-un-risque-grave-voire-mortel-aux-populations." class="level2">
+<h2 class="anchored" data-anchor-id="les-inondations-peuvent-faire-courir-un-risque-grave-voire-mortel-aux-populations.">Les inondations peuvent faire courir un risque grave, voire mortel, aux populations.</h2>
 <p align="justify">
 </p><p><font size="4.5px" face="calibri"> La priorité est de limiter au maximum le risque de pertes de vies humaines en développant la prévision, l’alerte, la mise en sécurité et la formation aux comportements qui sauvent.<br> La prévention la plus efficace pour limiter les dommages liés aux inondations reste, bien évidemment, d’éviter l’urbanisation en zone inondable. <br> Les démarches de prévention des risques d’inondation ont ainsi vocation à augmenter la sécurité des enjeux déjà implantés en zone inondable. </font></p>
 <p></p>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card bslib-card html-fill-container" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
+</section>
+<section id="liste-des-indicateurs-de-lobjectif-1" class="level2">
+<h2 class="anchored" data-anchor-id="liste-des-indicateurs-de-lobjectif-1">Liste des indicateurs de l’objectif 1</h2>
 <p align="justify">
 </p><p><font size="4.5px" face="calibri"> <b>- Bâtiments de plain-pied</b> : Nombre de personnes occupant des bâtiments (logements et activités) de plain-pied fortement inondables (plus de 1,5 m d’eau) <br> <b>- Établissements sensibles</b> : Nombre d’établissements sensibles (crèches, écoles, hôpitaux, maisons de retraite, établissements pénitentiaires) en zone inondable <br> <b>- Établissements utiles à la gestion de crise</b> : Nombre d’enjeux utiles à la gestion de crise susceptibles de dysfonctionner <br> <b>- Campings </b> : Nombre de personnes en campings (et autres enjeux similaires gérés) potentiellement impactées par une zone d’aléa dangereuse pour une personne <br> <b>- Routes</b> : Linéaire d’itinéraires routiers interceptés par des zones d’aléa dangereuses pour une personne <br> <b>- Plan communal de sauvegarde (PCS)</b> : Nombre de personnes habitant une commune inondable dont le plan communal de sauvegarde (PCS) n’a pas été réalisé (non réalisé ou en cours de réalisation) ou a plus de 5 ans <br> <b>- Document d’information communal sur les risques majeurs (DICRIM)</b> : Nombre de personnes habitant une commune inondable dont le DICRIM n’a pas été réalisé (non réalisé ou en cours de réalisation) ou a plus de 5 ans <br></font></p><font size="4.5px" face="calibri">
-</font>
+</font><p><font size="4.5px" face="calibri"></font></p>
 <p></p>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
-
-</div>
-</div>
-</div>
 
 
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -391,7 +513,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/9cdca614-921c-4439-ac5c-22d73af4594b\.netlify\.app\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -405,6 +527,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -752,14 +879,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-<script type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (_event) {
-  if (window.bslib.Card) {
-    window.bslib.Card.initializeAllCards();
-  }
-}); 
-</script>
-  
 
 
 

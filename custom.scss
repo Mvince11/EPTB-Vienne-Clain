@@ -610,11 +610,26 @@ div.sidebar-item-container{
   position: inherit;
 }
 
-/*.px-1 {
+.px-1 {
   display: block;
-  margin-bottom: 12px;
-}*/
+  display: block;
+  margin-bottom: 8px;
+  border: 1px solid aliceblue;
+  border-radius: 25px;
+  text-align: center;
+  padding: 3px;
+  font-size: 22px;
+}
 
+.px-1:hover{
+  background: rgba(255,255,255,0.4); /* effet verre renforcé au survol */
+  transition: background 0.3s ease, border-radius 0.3s ease;
+}
+
+
+.bi-envelope{
+  color:white;
+}
 /*.px-1 > i {
   font-size: 1.5rem;
 }*/
@@ -744,6 +759,11 @@ div.sidebar-item-container{
   align-items: center;    /* centre logo et texte */
 }
 
+.navbar .navbar-container > .navbar-brand-container {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 @media (max-width: 768px) {
   #photos_crues img {
     width: 100%;
@@ -755,10 +775,36 @@ div.sidebar-item-container{
     height: auto;
     padding-left: inherit;
   }
-
+  
+  .bi-envelope,
+  .bi-linkedin {
+    font-size: 1.1rem;
+  }
+  
+  .bi-envelope{
+    color: white;
+  }
+  
+  /*.px-1 {
+  padding-right: .25rem !important;
+  padding-left: .25rem !important;
+  display: flex;
+  margin-bottom: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 20px;
+  padding: 6px;
+  justify-content: center;
+}*/
 }
 
-@media (max-width: 713px){
+/*@media (max-width: 883px){
+  .navbar .navbar-container > .navbar-brand-container {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+}*/
+
+@media (max-width: 717px){
   .navbar-logo {
   max-height: 50px;
 }

@@ -1,0 +1,6 @@
+- source: project
+  quarto-pub:
+    - id: 28f0a866-ce12-431e-b6fe-544b0b7e944e
+      url: https://website.quarto.pub/observatoire-de-la-vulnérabilité-aux-inondations-vienne---clain
+    - id: 9cdca614-921c-4439-ac5c-22d73af4594b
+      url: https://website.quarto.pub/observatoire_vienne_clain
