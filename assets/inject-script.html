@@ -3,9 +3,6 @@
 <script src="assets/sidebar-toggle.js"></script>
 <!-- <script src="assets/toggle.js"></script> --> 
 
-<<<<<<< HEAD
-
-=======
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   // Try common Quarto IDs; fall back to your custom one if used
@@ -70,5 +67,23 @@ document.addEventListener('DOMContentLoaded', function () {
   toggler.appendChild(menuText);
   
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  // cibler l'icône via sa classe Bootstrap Icons
+  const icon = document.querySelector(".bi-person-circle");
+
+  if (icon) {
+    icon.setAttribute("title", "Mode expert");
+    icon.setAttribute("data-bs-toggle", "tooltip");
+
+    // activer le tooltip Bootstrap
+    new bootstrap.Tooltip(icon);
+  } else {
+    console.warn("Icône non trouvée dans la navbar");
+  }
+
+});
+
 </script>
->>>>>>> 53c0ddf (Ajout menu de navigation)
+

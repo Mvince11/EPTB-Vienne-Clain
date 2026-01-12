@@ -80,6 +80,11 @@ website:
           - text: EPTB-vienne.fr
             href: https://www.eptb-vienne.fr
             target: _blank
+            
+        - icon: person-circle
+          href: login.qmd
+          text: " "
+          
         
      tools: 
          - href: https://fr.linkedin.com/company/eptb-vienne
