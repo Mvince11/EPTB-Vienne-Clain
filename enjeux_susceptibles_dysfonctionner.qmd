@@ -55,6 +55,8 @@ La zone inondable correspond à l'aléa centennal construit à partir des donné
 
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
 library(sf)
 library(dplyr)
 library(jsonlite)

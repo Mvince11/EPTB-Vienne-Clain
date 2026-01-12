@@ -1,1 +1,1 @@
-Sitemap: https://9cdca614-921c-4439-ac5c-22d73af4594b.netlify.app/sitemap.xml
+Sitemap: https://website.quarto.pub/observatoire_vienne_clain/sitemap.xml

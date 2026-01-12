@@ -21,6 +21,7 @@ include-in-header:
     
     <link rel="stylesheet" href="js/photon-geocoder-autocomplete.min.css" type="text/css">
     <script src="js/photon-geocoder-autocomplete.min.js" type="text/javascript"></script>
+    <script src="js/offcanvas.js" type="text/javascript"></script>
 ---
 
 ##  {.sidebar}
@@ -53,6 +54,8 @@ La zone inondable correspond à l'aléa centennal construit à partir des donné
 
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
 library(sf)
 library(dplyr)
 library(jsonlite)
@@ -944,4 +947,3 @@ Zoomer sur la carte (molette de la souris) pour visualiser les bâtiments.
 <i class="bi bi-info-circle"></i> **Une illustration pour bien comprendre la carte interactive**
 
 ![Bâtiments 3D](Images/batiments_3d.jpg){fig-align="left" width="75%"}
-
