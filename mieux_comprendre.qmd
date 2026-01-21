@@ -27,7 +27,7 @@ lang: fr
 
 <p align="justify">
 
-<font size="4.5px" face="calibri"> Une inondation peut avoir plusieurs causes : débordement de cours d’eau, ruissellement, remontées de nappes…<br> L’observatoire illustre la vulnérabilité du territoire uniquement pour le risque lié aux débordements de cours d’eau.<br/></font>
+<font size="4.5px" face="calibri"> Une inondation peut avoir plusieurs causes : débordement de cours d’eau, ruissellement, remontées de nappes…<br> L’observatoire illustre la vulnérabilité du territoire pour le risque débordements de cours d’eau et ruissellement.<br/></font>
 
 </p>
 

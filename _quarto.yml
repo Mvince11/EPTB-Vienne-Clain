@@ -147,7 +147,7 @@ format:
     theme: [flatly, custom.scss]
     #css: custom.scss
     toc: true
-    toc-title: Sur cette page
+    toc-title: Contenu
     toc-location: right
     toc-depth: 2
     link-external-newwindow: true

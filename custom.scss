@@ -136,7 +136,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 1100px,
   xl: 1200px,
-  xxl: 2000px
+  xxl: 2400px
 );
 
 /*-- scss:rules --*/
@@ -767,6 +767,15 @@ div.sidebar-item-container{
 .bi-person-circle{
   display: block;
   text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  height: 487px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  background-attachment: fixed;
 }
 
 @media (max-width: 768px) {

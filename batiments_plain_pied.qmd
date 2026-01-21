@@ -202,7 +202,7 @@ map = {
       { data: indicateursGeojson, // GeoJSON contenant une propriété 's12a' -->
         type: 'fill',
         id: 'indicateurs12aLayer',
-        opacity: 0.9,
+        opacity: 0.5,
         width: 1,
         dynamicColor: { 
         property: 's12a',

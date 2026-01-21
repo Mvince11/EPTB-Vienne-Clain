@@ -1,15 +1,35 @@
 ---
 title: "Observatoire de la vulnérabilité aux inondations Vienne - Clain"
 lang: fr
+format:
+  html:
+    title-block-header: none
 ---
+
 
 ## Pourquoi un observatoire ?
 
 ```{=html}
+<style>
+#title-block-header{
+display:none;
+}
+
+h2{
+  font-family: avenir;
+  font-size: 35px;
+  opacity: 0.8;
+}
+</style>
 
 <p align="justify">
 
-<font size="4.5px" face="calibri"> L’inondation est le premier risque naturel en France, il menace des vies, des habitations, des emplois. Bien qu’épargnés ces dernières années, les bassins de la Vienne et du Clain ont connu des inondations par le passé et les évènements récents sur des territoires voisins incitent à une prise de conscience de la population.<br> La gestion du risque inondation dépend de la vulnérabilité du territoire qui se traduit ici comme la propension pour des personnes, des biens et des activités à être affectés par ce phénomène. Appréhender les différentes vulnérabilités est une composante essentielle du défi «Mieux savoir pour mieux agir» identifié au niveau national.<br> Partager cette connaissance avec le plus grand nombre est le principal objectif de cet observatoire.<br><br> </font>
+<font size="4.5px" face="calibri"> L’inondation est le premier risque naturel en France, il menace des vies, des habitations, des emplois. Les bassins de la Vienne et du Clain ne sont pas épargnés et sont confrontés à des débordements de cours d’eau ou des ruissellements. Ces phénomènes incitent à une prise de conscience de la population qui peuvent s’amplifier avec le changement climatique.
+<br><br>
+La gestion du risque inondation dépend de la vulnérabilité du territoire qui se traduit ici comme la propension pour des personnes, des biens et des activités à être affectés par ce phénomène. Appréhender les différentes vulnérabilités est une composante essentielle du défi : Mieux savoir pour mieux agir.
+<br><br>
+Partager cette connaissance avec le plus grand nombre est le principal objectif de cet observatoire.
+<br><br> </font>
 
 </p>
 <div id="photos_crues">
@@ -24,25 +44,45 @@ lang: fr
 ```{=html}
 <p align="justify">
 
-<font size="4.5px" face="calibri"> L’observatoire permet la visualisation de plusieurs indicateurs, calculés à partir d’une méthode nationale. Ils s’appuient tous sur une crue dite centennale c’est-à-dire qui a «une chance» sur 100 de se produire tous les ans.<br> Ces indicateurs permettent de décrire la vulnérabilité mais ils peuvent également être utilisés pour évaluer l'efficacité des actions menées sur le terrain qui visent à réduire le risque.<br><br> Ils sont répartis selon 3 objectifs : <br> • Objectif 1 : Augmenter la sécurité des populations exposées, <br> • Objectif 2 : Stabiliser à court terme et réduire à moyen terme le coût des dommages, <br> • Objectif 3 : Raccourcir fortement le délai de retour à la normale des territoires sinistrés. <br> </font>
-
+<font size="4.5px" face="calibri"> L’observatoire permet de visualiser plusieurs indicateurs qui traduise la vulnérabilité du territoire. Pour les débordements de cours d’eau, ils s’appuient sur une crue dite centennale c’est-à-dire qui a « une chance » sur 100 de se produire tous les ans.
+<br><br>
+Ces indicateurs permettent de décrire la vulnérabilité mais ils peuvent également être utilisés pour évaluer l'efficacité des actions menées sur le terrain qui visent à réduire le risque.
+<br><br>
+Cet observatoire vous permet de consulter pour chaque indicateur : une carte dynamique, des graphiques et des informations chiffrées.
+</font>
 </p>
 
-<br> <font size="4.5px" face="calibri"> Les indicateurs ont été actuellement calculés sur le territoire de Grand Poitiers et quelques communes qui jalonnent la Vienne dont Châtellerault. Dans le futur, ils ont vocation à être étendus au périmètre de la stratégie locale de gestion du risque inondation Vienne – Clain.<br> Cet observatoire vous permet de consulter pour chaque indicateur de vulnérabilité un onglet dédié comprenant une carte dynamique, des graphiques et des résultats bruts et une fiche téléchargeable et imprimable avec les éléments de construction de l'indicateur et la carte de vulnérabilité. </font>
-
-</p>
 ```
 
 <br>
 
-## Les auteurs de l’observatoire
+## Les auteurs
 
 ```{=html}
-<p align="justify">
+<div align="justify">
 
-<font size="4.5px" face="calibri"> L’observatoire est le fruit d’une collaboration entre l’Etablissement Public Territorial du Bassin (EPTB) de la Vienne et le CEREMA. Plusieurs collectivités et services de l’Etat ont contribué également à son élaboration (Grand Poitiers, Grand Châtellerault, CC. Vienne et Gartempe, Département de la Vienne, DDT de la Vienne, DREAL Nouvelle Aquitaine). Le financement de ce projet s’insère dans un Programme d’Action de Prévention des Inondations (PAPI) financé par l’Etat (Fonds Barnier) et l’Europe (Plan Loire). <br></font>
+    <p font size="4.5px" face="calibri"> Cet observatoire est le fruit d’une collaboration entre l’Etablissement Public       Territorial du Bassin (EPTB) de la Vienne et le CEREMA. Le financement de ce projet s’insère dans un Programme          d’Action de Prévention des Inondations (PAPI) financé par l’Etat (Fonds Barnier).
+    <br>
+    </p>
 
-</p>
+<br> 
+  <div style="
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  margin-top:10px;
+">
 
-<br> <a href="mailto:contact@eptb-vienne.fr" target=_blank><i class="fa fa-comments fa-1x"></i>Nous contacter</a> (contact\@eptb-vienne.fr) <br><br> <img src="Images/logo_financeurs.png" height="70px" width="350px" align="right"/>
+  <div style="font-size:1.1em;">
+    <a href="mailto:contact@eptb-vienne.fr" target="_blank" style="text-decoration:none;">
+      <i class="bi bi-envelope" style="color:black;"></i> Nous contacter
+    </a>
+    <span style="margin-left:6px;">(contact@eptb-vienne.fr)</span>
+  </div>
+
+  <img src="Images/Republique-francaise.png" height="100" width="100" style="flex-shrink:0;"/>
+</div>
+
+</div>
 ```
